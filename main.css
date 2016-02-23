@@ -45,10 +45,10 @@ color: #000;
 /*top background*/
 .intro-header {
     height: 855px;  
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg') no-repeat center center fixed;
+    background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }
