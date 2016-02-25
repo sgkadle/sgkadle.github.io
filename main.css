@@ -136,8 +136,14 @@ hr.intro-divider {
 
 .content-section-a {
     padding: 50px 0;
-    background: url('https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg') no-repeat center center fixed;
+    background: url('http://www.cloudwireless.in/img/011.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
     height: 855px;
 }
 .bg-overlay2 {
