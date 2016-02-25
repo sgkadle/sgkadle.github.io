@@ -45,10 +45,11 @@ color: #000;
 
 .intro-header {
     height: 855px;  
-    padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center ;
+    /*background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center ;*/
+    background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg') no-repeat center center ;
     background-size: cover;
     height: 855px;
 }
@@ -136,7 +137,8 @@ hr.intro-divider {
 
 .content-section-a {
     padding: 50px 0;
-    background: url('http://www.cloudwireless.in/img/011.jpg');
+    /*background: url('http://www.cloudwireless.in/img/011.jpg');*/
+    background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 background-position: center center;
