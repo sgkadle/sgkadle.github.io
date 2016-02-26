@@ -45,7 +45,7 @@ color: #000;
 
 .intro-header {
     height: 855px;  
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px; /* For other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     /*background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center ;*/
@@ -182,6 +182,7 @@ h2.section-heading {
   color: silver;
   font-weight: bold;
 }
+
 /*profile picture*/
 .img-circle {
   margin-top: 150px;
