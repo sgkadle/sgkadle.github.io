@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="main.css"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <!--Google API's-->
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-74412116-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <script>
+  var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+  if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+  function mischandler(){
+  return false;
+  }
+
+  function mousehandler(e){
+  var myevent = (isNS) ? e : event;
+  var eventbutton = (isNS) ? myevent.which : myevent.button;
+  if((eventbutton==2)||(eventbutton==3)) return false;
+  }
+  document.oncontextmenu = mischandler;
+  document.onmousedown = mousehandler;
+  document.onmouseup = mousehandler;
+
+</script>
+
+
+
+  <!-- -->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>Sai Kadle's Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <div class="container topnav">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        <a class="navbar-brand topnav" href="http://www.saikadle.com">Sai Kadle</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#resume">Résumé</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+
+  <br>
+
+<h3>Snap....<br>
+Something went wrong
+  <br></h3>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="list-inline">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="#resume">Résumé</a>
+            </li>
+          </ul>
+          <p class="copyright text-muted small">Copyright &copy; Sgkadle Web Dev. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
