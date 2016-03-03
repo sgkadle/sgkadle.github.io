@@ -20,9 +20,29 @@
     ga('send', 'pageview');
   </script>
 
+  <script>
+  var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+  if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+  function mischandler(){
+  return false;
+  }
+
+  function mousehandler(e){
+  var myevent = (isNS) ? e : event;
+  var eventbutton = (isNS) ? myevent.which : myevent.button;
+  if((eventbutton==2)||(eventbutton==3)) return false;
+  }
+  document.oncontextmenu = mischandler;
+  document.onmousedown = mousehandler;
+  document.onmouseup = mousehandler;
+
+</script>
 
 
-  <!--        -->
+
+  <!-- -->
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -31,7 +51,11 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+<!--For Title Icon aka favicon-->
+<link rel="shortcut icon" href="img/favicon.ico" />
   <title>Sai Kadle's Portfolio</title>
+
 </head>
 
 <body>
@@ -61,6 +85,9 @@
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#">Résumé</a>
           </li>
         </ul>
       </div>
@@ -207,6 +234,10 @@ Javascript, HTML5, CSS3, jQuery, Bootstrap, Java, C# .Net, Git, Responsive Web D
             <li class="footer-menu-divider">&sdot;</li>
             <li>
               <a href="#contact">Contact</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="#resume">Résumé</a>
             </li>
           </ul>
           <p class="copyright text-muted small">Copyright &copy; Sgkadle Web Dev. All Rights Reserved</p>
