@@ -7,51 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 
-  <!--Google API's-->
-
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-74412116-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <!--API End-->
-
-  <!--Javascript rightclick disabled-->
-  <script>
-  var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-
-  if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-
-  function mischandler(){
-  return false;
-  }
-
-  function mousehandler(e){
-  var myevent = (isNS) ? e : event;
-  var eventbutton = (isNS) ? myevent.which : myevent.button;
-  if((eventbutton==2)||(eventbutton==3)) return false;
-  }
-  document.oncontextmenu = mischandler;
-  document.onmousedown = mousehandler;
-  document.onmouseup = mousehandler;
-
-</script>
+  
   <!-- -->
   
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
 <!--For Title Icon aka favicon-->
 <link rel="shortcut icon" href="img/favicon.ico" />
@@ -89,7 +51,7 @@
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="https://dl.dropboxusercontent.com/u/109162257/SaiKadle_Resume.pdf">Résumé</a>
+            <a href="resume.html">Résumé</a>
           </li>
         </ul>
       </div>
@@ -114,7 +76,7 @@
             <div class="intro-message">
               <br><br><br>
               <h1>Sai Kadle's Portfolio</h1>
-              <h3>The Iron Man born in the 90's.</h3>
+              <h3>The Iron Man of the 90's.</h3>
               <hr class="intro-divider">
               <ul class="list-inline intro-social-buttons">
                 <li>
@@ -143,7 +105,7 @@
 
  <!-- Page Content About Section -->
 
-  <a  name="about"></a>
+  <a  href="#about" name="about"></a>
     <div class="content-section-a">
       <div class="bg-overlay2">
         <div class="container">
@@ -185,7 +147,7 @@ Javascript, HTML5, CSS3, jQuery, Bootstrap, Java, C# .Net, Git, Responsive Web D
         <div class="container">         
             <div class="row">
                 <div class="col-lg-6">
-                  <h2 class="connect">Connect with Sai Kadle: sai.kadle@gmail.com</h2>
+                  <h2 class="connect">Connect with Sai Kadle: <a href="mailto:sai.kadle@gmail.com?subject=WebsiteContactMe&body=Hey Sai,">sai.kadle@gmail.com</a></h2>
                 </div>
               </br>
       
@@ -247,8 +209,45 @@ Javascript, HTML5, CSS3, jQuery, Bootstrap, Java, C# .Net, Git, Responsive Web D
       </div>
     </div>
   </footer>
-
-
 </body>
+<!--Google API's-->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-74412116-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!--API End-->
+
+  <!--Javascript rightclick disabled-->
+  <script>
+  // var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+  // if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+  // function mischandler(){
+  // return false;
+  // }
+
+  // function mousehandler(e){
+  // var myevent = (isNS) ? e : event;
+  // var eventbutton = (isNS) ? myevent.which : myevent.button;
+  // if((eventbutton==2)||(eventbutton==3)) return false;
+  // }
+  // document.oncontextmenu = mischandler;
+  // document.onmousedown = mousehandler;
+  // document.onmouseup = mousehandler;
+
+</script>
 
 </html>

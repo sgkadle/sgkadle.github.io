@@ -49,7 +49,8 @@ color: #000;
     padding-bottom: 50px;
     text-align: center;
     /*background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center ;*/
-    background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg') no-repeat center center ;
+    /*background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg') no-repeat center center ;*/
+    background-color: #D8DBE2;
     background-size: cover;
     height: 855px;
 }
@@ -68,7 +69,7 @@ color: #000;
     margin-top: -50px;
     text-shadow: 2px 1px 2px #000;
     font-size: 5em;
-    color: rgba(255, 255, 255, 0.7);
+    color: #6FFFE9;
 }
 
 .intro-divider {
@@ -79,7 +80,7 @@ color: #000;
 
 .intro-message > h3 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-  color: black;
+  color: #5BC0BE;
 }
 
 @media(max-width:767px) {
@@ -138,7 +139,8 @@ hr.intro-divider {
 .content-section-a {
     padding: 50px 0;
     /*background: url('http://www.cloudwireless.in/img/011.jpg');*/
-    background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg');
+    /*background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg');*/
+    background-color:#1C2541;
     background-size: cover;
     background-repeat: no-repeat;
 background-position: center center;
@@ -150,7 +152,6 @@ background-attachment: fixed;
 }
 .bg-overlay2 {
   margin-top: -50px;
-  background: rgba(255, 255, 255, 0.2);
   height: 855px;
 }
   
@@ -229,7 +230,6 @@ h2.section-heading {
 }
 
 
-
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
@@ -244,9 +244,6 @@ h2.connect {
    margin: 0;
    color: rgba(0, 0, 0, 0.9);
 }
-
-
-
 
 footer {
     padding: 20px 0;
