@@ -1,23 +1,24 @@
 
 body {
-  margin-top: 60px;
+  margin-top: 40px;
 /*
   margin-left: 40px;
   margin-right: 40px;
 */
   margin-bottom: 20px;
-  #background-color:#334163;
+  background-color:#334163;
 }
 
 .topnav {
     font-size: 16px;
     border-bottom: 1px outset rgba(192, 192, 192, 0.5);
-    background: rgba(192, 192, 192, 0.9);
+    /*background: rgba(192, 192, 192, 0.9);*/
     box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
 }
+
 .topnav ul.navbar-nav li a {
 background: rgba(28, 28, 28, 0.1);
-color: #000;
+color: #111;
 }
 .topnav ul.navbar-nav li a:hover,
 .topnav ul.navbar-nav li a:focus
@@ -45,12 +46,12 @@ color: #000;
 
 .intro-header {
     height: 855px;  
-    padding-top: 50px; /* For other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 10px; /* For other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     /*background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center ;*/
     /*background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg') no-repeat center center ;*/
-    background-color: #D8DBE2;
+    background-color: #389EFF;
     background-size: cover;
     height: 855px;
 }
@@ -140,7 +141,7 @@ hr.intro-divider {
     padding: 50px 0;
     /*background: url('http://www.cloudwireless.in/img/011.jpg');*/
     /*background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg');*/
-    background-color:#1C2541;
+    background-color:#161925;
     background-size: cover;
     background-repeat: no-repeat;
 background-position: center center;
@@ -170,14 +171,14 @@ background-attachment: fixed;
 h2.section-heading {
     margin-top: 100px;
     font-size: 3em;
-    color: rgba(0, 0, 0, 0.9);
+    color: #6FFFE9;
 }
 
   /*text*/
  .content-section-a p {
     font-size: 22px;
    font-weight: bold;
-    color: #000;
+    color: #5BC0BE;
   }
 .content-section-a p a {
   color: silver;
@@ -201,7 +202,8 @@ h2.section-heading {
 
 .banner {
     padding: 100px 0;
-    background: url('http://www.toptenpack.com/wp-content/uploads/2014/08/white-web-wallpapers.jpg') no-repeat center center fixed;
+    background-color: #03ADA7 ;
+    /*background: url('http://www.toptenpack.com/wp-content/uploads/2014/08/white-web-wallpapers.jpg') no-repeat center center fixed;*/
     background-size: cover;
     height: 755px;
 }
@@ -242,14 +244,162 @@ h2.section-heading {
 
 h2.connect {
    margin: 0;
-   color: rgba(0, 0, 0, 0.9);
+   color: #6FFFE9);
 }
 
 footer {
     padding: 20px 0;
-    background: rgba(192, 192, 192, 0.9);
+    background: #333;
+    font-size: 15px;
 }
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+
+
+/* *************************  */
+/*
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin:1.66%;
+  border-radius: 30%;
+  transition: background 0.6s;
+  -webkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+}
+
+.square-img {
+    background-image: url("profile.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container-prof {
+  margin: 30px auto;
+  max-width:600px;
+}*/
+
+/* Portfolio section*/
+section {
+  color: black;
+  background-color: #301919;
+
+}
+
+/* #below-section {
+      font-size: 22px;
+    font-weight: bold;
+    color: #5BC0BE;
+}*/
+
+#small-text {
+  color: white;
+}
+
+/*.portfolio-item {
+  overflow: hidden;
+  padding: 7px;
+  color: white;
+  height: 308px;
+}*/
+
+/*Portfolio items*/
+
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  /*border: 1px outset rgba(255, 255, 255, 0.6);*/
+  border: none;
+  border-radius: 5%;
+
+}
+
+#portfolio .portfolio-item:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s,
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  color: #fff;
+  text-transform: none;
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0;
+}
+
+/*#section-subheading {
+      font-size: 22px;
+    font-weight: bold;
+    color: #5BC0BE;
+}*/
+
+#portfolio * {
+  z-index: 2;
+}
+
+@media (min-width:767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
 }
