@@ -5,37 +5,58 @@ body {
   margin-left: 40px;
   margin-right: 40px;
 */
+
   margin-bottom: 20px;
   background-color:#334163;
 }
 
+.navbar-default {
+    background-color: #757575; 
+    border-color: #000;
+    background: #757575;
+}
+
 .topnav {
     font-size: 16px;
-    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
-    /*background: rgba(192, 192, 192, 0.9);*/
+    border-bottom: 1px outset #000;
+    background: rgba(192, 192, 192, 0.9);
     box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+    border-color: #757575;
+    /*this is the partial color for navbar*/
+    background-color: #757575;
+
 }
 
 .topnav ul.navbar-nav li a {
-background: rgba(28, 28, 28, 0.1);
-color: #111;
+background: #757575; /*the nav menu color*/
+color: #fff; /* Font Color */
 }
 .topnav ul.navbar-nav li a:hover,
 .topnav ul.navbar-nav li a:focus
  {
 background: rgba(255, 255, 255, 0.5);
-color: #000;
+color: #111;
 }
 
 .topnav .navbar-brand {
-  background: rgba(28, 28, 28, 0.0);
-  color: #000;
+
+  background: #757575;
+  color: #fff;
+
+}
+a.navbar-brand.topnav {
+  color: #fff;
+}
+
+nav.navbar.navbar-default.topnav {
+  background-color: #757575;
+
 }
 
 .topnav .navbar-brand:hover,
 .topnav .navbar-brand:focus {
-  background: rgba(255, 255, 255, 0.5);
-  color: #000;
+  background: #757575;
+  color: #757575;
 }
 
 
@@ -51,12 +72,15 @@ color: #000;
     text-align: center;
     /*background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center ;*/
     /*background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg') no-repeat center center ;*/
-    background-color: #389EFF;
+    background-color: #fff;
     background-size: cover;
     height: 855px;
 }
+
+
+/*first page property*/
 .bg-overlay {
-  background:rgba(0,0,0, 0.3);
+  background: #fff;
   height: 855px;
 }
 
@@ -68,9 +92,9 @@ color: #000;
 
 .intro-message > h1 {
     margin-top: -50px;
-    text-shadow: 2px 1px 2px #000;
+    text-shadow: 1px 1px 1px #000;
     font-size: 5em;
-    color: #6FFFE9;
+    color: #01BAEF;
 }
 
 .intro-divider {
@@ -81,7 +105,7 @@ color: #000;
 
 .intro-message > h3 {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-  color: #5BC0BE;
+  color: #757575;
 }
 
 @media(max-width:767px) {
@@ -125,11 +149,17 @@ hr.intro-divider {
   transition: 0.2s;
 }
 
+a.btn.btn-default.btn-lg {
+  background-color: #757575;
+  border-color: #ccc;
+  color: #fff;
+}
+
 .btn:hover {
 	color: #fff;
   border: 2px outset rgba(0, 0, 0, 0.9);
   background: rgba(0,0,0, 0.9);
-  transform:scale(1.1);
+  transform: scale(1.1);
   transition: 0.2s;
   text-shadow: 1px 1px 1px rgba(0,0,0, 20);
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
@@ -141,7 +171,7 @@ hr.intro-divider {
     padding: 50px 0;
     /*background: url('http://www.cloudwireless.in/img/011.jpg');*/
     /*background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg');*/
-    background-color:#161925;
+    background-color:#757575;
     background-size: cover;
     background-repeat: no-repeat;
 background-position: center center;
@@ -171,14 +201,14 @@ background-attachment: fixed;
 h2.section-heading {
     margin-top: 100px;
     font-size: 3em;
-    color: #6FFFE9;
+    color: #01BAEF;
 }
 
   /*text*/
  .content-section-a p {
     font-size: 22px;
    font-weight: bold;
-    color: #5BC0BE;
+    color: #fff;
   }
 .content-section-a p a {
   color: silver;
@@ -202,7 +232,7 @@ h2.section-heading {
 
 .banner {
     padding: 100px 0;
-    background-color: #03ADA7 ;
+    background-color: #fff ;
     /*background: url('http://www.toptenpack.com/wp-content/uploads/2014/08/white-web-wallpapers.jpg') no-repeat center center fixed;*/
     background-size: cover;
     height: 755px;
@@ -244,8 +274,9 @@ h2.section-heading {
 
 h2.connect {
    margin: 0;
-   color: #6FFFE9);
+   color: #757575;
 }
+
 
 footer {
     padding: 20px 0;
@@ -288,7 +319,7 @@ p.copyright {
 /* Portfolio section*/
 section {
   color: black;
-  background-color: #301919;
+  background-color: #fff;
 
 }
 
