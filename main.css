@@ -14,49 +14,7 @@ body {
     background-color: #757575; 
     border-color: #000;
     background: #757575;
-}
-
-.topnav {
-    font-size: 16px;
-    border-bottom: 1px outset #000;
-    background: rgba(192, 192, 192, 0.9);
-    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
-    border-color: #757575;
-    /*this is the partial color for navbar*/
-    background-color: #757575;
-
-}
-
-.topnav ul.navbar-nav li a {
-background: #757575; /*the nav menu color*/
-color: #fff; /* Font Color */
-}
-.topnav ul.navbar-nav li a:hover,
-.topnav ul.navbar-nav li a:focus
- {
-background: rgba(255, 255, 255, 0.5);
-color: #111;
-}
-
-.topnav .navbar-brand {
-
-  background: #757575;
-  color: #fff;
-
-}
-a.navbar-brand.topnav {
-  color: #fff;
-}
-
-nav.navbar.navbar-default.topnav {
-  background-color: #757575;
-
-}
-
-.topnav .navbar-brand:hover,
-.topnav .navbar-brand:focus {
-  background: #757575;
-  color: #757575;
+    padding: 0 5%;
 }
 
 
@@ -65,47 +23,69 @@ nav.navbar.navbar-default.topnav {
     font-weight: 400;
 }
 
-.intro-header {
-    height: 855px;  
-    padding-top: 10px; /* For other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    /*background: url('http://www.dailypicsupdate.com/wp-content/uploads/2013/01/Dark-wooden-website-background.jpg') no-repeat center center ;*/
-    /*background: url('http://images.forwallpaper.com/files/thumbs/preview/66/669944__abstract-room-empty-wallpaper_p.jpg') no-repeat center center ;*/
-    background-color: #fff;
-    background-size: cover;
-    height: 855px;
+.navbar-logo{
+  margin: 10px 0;
+}
+.navbar-ul{
+  margin-top: 7px !important;
+  font-size: 18px;
+/*  font-weight: 200;*/
+}
+.navbar-ul-li-a{
+  transition: 0.5s all !important;
+  color: #909090 !important;
+}
+.navbar-ul-li-a:hover{
+  color: #FF7260 !important;
 }
 
+#navbar-logo-img{
+  width: 60px;
+}
 
-/*first page property*/
-.bg-overlay {
-  background: #fff;
-  height: 855px;
+.intro-content{
+  clear: both;
+  padding: 0 5%;
+  text-align: center;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding: 22% 0 15%;
 }
 
 .intro-message > h1 {
-    margin-top: -50px;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #848282;
     font-size: 5em;
-    color: #01BAEF;
+    color: #1299bf;
 }
 
 .intro-divider {
-    width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,0.6);*/
   color: #757575;
+  font-weight: 200;
+}
+
+.social-icons{
+  list-style-type: none;
+  padding: 0;
+}
+.social-icons-li{
+  display: inline-block;
+  padding: 10px 20px;
+}
+.social-icons-img{
+  width: 55px;
+  opacity: 0.70;
+  transition: 0.5s all;
+}
+.social-icons-img:hover{
+  opacity: 0.85;
 }
 
 @media(max-width:767px) {
@@ -133,8 +113,6 @@ nav.navbar.navbar-default.topnav {
 }
 
 hr.intro-divider {
-  border: 1px outset rgba(255, 255, 255, 0.2);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
   width: 100%;
 }
 
@@ -148,15 +126,14 @@ hr.intro-divider {
   letter-spacing: 2px;
   transition: 0.2s;
 }
-
-a.btn.btn-default.btn-lg {
+/*a.btn.btn-default.btn-lg {
   background-color: #757575;
   border-color: #ccc;
   color: #fff;
-}
+}*/
 
 .btn:hover {
-	color: #fff;
+  color: #fff;
   border: 2px outset rgba(0, 0, 0, 0.9);
   background: rgba(0,0,0, 0.9);
   transform: scale(1.1);
@@ -197,11 +174,14 @@ background-attachment: fixed;
   font-weight: bold;
   font-size: 22.5px;
 }
-
-h2.section-heading {
-    margin-top: 100px;
+.portfolio-content{
+  padding: 0 1.1em;
+}
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 2%;
     font-size: 3em;
-    color: #01BAEF;
+    color: #FF7260;
 }
 
   /*text*/
@@ -331,6 +311,7 @@ section {
 
 #small-text {
   color: white;
+  font-weight: 100;
 }
 
 /*.portfolio-item {
@@ -341,6 +322,28 @@ section {
 }*/
 
 /*Portfolio items*/
+#portfolio{
+    -moz-box-shadow: inset 0 5px 7px -5px rgba(134, 134, 134, 0.7);
+    -webkit-box-shadow: inset 0 5px 7px -5px rgba(134, 134, 134, 0.7);
+    box-shadow: inset 0 5px 7px -5px rgba(134, 134, 134, 0.7);
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    padding: 5%;
+    /*overflow-y: auto;*/
+}
+.portfolio-subheading{
+  border: 1px solid #ddd;
+  height: 1px;
+  border-bottom: #fff solid 1px;
+  margin: 10px 0 45px;
+}
+.portfolio-subheading-p{
+  text-transform: uppercase;
+  width: 230px;
+  background: #fafafa;
+  display: block;
+  margin: -10px auto 0;
+}
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -350,10 +353,20 @@ section {
   border-radius: 5%;
 
 }
-
-#portfolio .portfolio-item:hover {
-  transition: 0.5s;
-  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+.portfolio-link{
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.25);
+  transition: 0.5s all;
+}
+.portfolio-link:hover{
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.85);
+  -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.85);
+  box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.85);
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -374,25 +387,6 @@ section {
   -moz-transition: all ease .5s,
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
-}
-
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
@@ -410,6 +404,7 @@ section {
   color: #fff;
   text-transform: none;
   margin: 0;
+  font-weight: 200;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -417,16 +412,6 @@ section {
   font-style: italic;
   font-size: 13px;
   margin: 0;
-}
-
-/*#section-subheading {
-      font-size: 22px;
-    font-weight: bold;
-    color: #5BC0BE;
-}*/
-
-#portfolio * {
-  z-index: 2;
 }
 
 @media (min-width:767px) {
